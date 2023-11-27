@@ -1,5 +1,11 @@
 import logo from './assets/investment-calculator-logo.png';
 
+// 1. App component를 여러개의 작은 컴포넌트로 분리
+// 2. 제출 및 클릭 이벤트 처리
+// 3. 상태 관리 -> 제출한 데이터가 제대로 관리되고 있는지, 투자 데이터들 모두 상태 단위로 관리되는지
+// 4. 상태를 통해 화면에 데이터 출력 -> 투자 결과 출력
+// 5. 스타일링: index.css 파일을 분할해서 style-components로 사용
+
 function App() {
   const calculateHandler = (userInput) => {
     // Should be triggered when form is submitted
